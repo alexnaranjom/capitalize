@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capitalize"
+version = "0.1.0"
+description = "My capitalize project."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+authors = [{name = "Alex Naranjo", email = "alex.naranjo.m@gmail.com" }]
+maintainers = [{name = "Alex Naranjo", email = "alex.naranjo.m@gmail.com" }]
+
+[project.optional-dependencies]
+test = ["pytest"]
