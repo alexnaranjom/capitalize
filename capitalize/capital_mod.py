@@ -83,7 +83,7 @@ def capitalize(infilename, outfilename):
 
     :raises: IOError if infilename doesn't exist.
     """
-    infile = open(infilename, 'U')
+    infile = open(infilename, 'r')
     outfile = open(outfilename, 'w')
 
     for line in infile:

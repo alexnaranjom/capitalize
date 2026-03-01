@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pytest
 
-import capital_mod
+from capitalize import capital_mod
 
 
 # fixture that creates and removes a file with special words in it
